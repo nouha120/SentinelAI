@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Local data and generated artifacts
+data/raw/
+*.joblib
+*.pkl
+sentinelai_threshold.txt
+sentinelai_test_metrics.csv
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
